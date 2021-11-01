@@ -1,0 +1,52 @@
+*{
+    padding: 0; 
+    margin:  0;
+    box-sizing: border-box;
+}
+
+div.container{
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#c50000, #cf6800, #d1d101, #00b400, #00ffff, #0000ff, #981efc);
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    -o-animation-direction: alternate;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+    
+}
+
+
+
+
+
+button {
+
+    cursor: pointer;
+    font-family: Tahoma;
+    padding: 12px;
+    -webkit-box-shadow: 1px 1px 6px 0 #f70808;
+    -moz-box-shadow: 1px 1px 6px 0 #d10606;
+    box-shadow: 1px 1px 6px 0 #d10606;
+    text-shadow: 1px 1px 6px #1361aa;
+    color: #fdfffeef;
+    background-color: #1361aa;
+    font-size: large;
+    display: flex;
+    margin: 0 auto;
+    position: center;
+    right: 50px;
+    margin-top: 20px;
+    border-radius: 12px;
